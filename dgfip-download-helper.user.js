@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         dgfip download helper
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  download dxf files from data.gouv.fr with "https://github.com/mediascience/Browser-Multiple-Downloader"
 // @author       vprelat
 // @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/dxf/*/
+// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-image/latest/tiff/*/
 // @grant        none
 // ==/UserScript==
 

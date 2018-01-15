@@ -1,5 +1,5 @@
 # dgfip-download-helper
-Aide au téléchargement de fichiers cadastre sur le site [data.gouv.fr](http://www.data.gouv.fr/fr/datasets/pci-vecteur-plan-cadastral-informatise/)
+Aide au téléchargement de fichiers cadastre sur le site [data.gouv.fr](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise)
 
 ## Utilisation
 
@@ -7,7 +7,8 @@ Installez l'extention [Browser-Multiple-Downloader](https://github.com/mediascie
 
 Installez un gestionnaire d'userscript comme [Tampermonkey](http://tampermonkey.net/) et ajouter le script js
 
-Maintenant allez sur [https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/dxf/](https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/dxf/) et profitez
+Maintenant allez sur [https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/dxf/](https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/dxf/) pour les dxf 
+ou [https://cadastre.data.gouv.fr/data/dgfip-pci-image/latest/tiff/](https://cadastre.data.gouv.fr/data/dgfip-pci-image/latest/tiff/) pour les images et profitez
 
 
 ## Images
