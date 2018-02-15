@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         dgfip download helper
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.4
 // @description  download dxf files from data.gouv.fr with "https://github.com/mediascience/Browser-Multiple-Downloader"
 // @author       vprelat
-// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/dxf/*/
-// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-image/latest/tiff/*/
+// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/*/dxf/*/
+// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/*/dxf-cc/*/
+// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/*/edigeo/*/
+// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-image/*/tiff/*/
 // @grant        none
 // ==/UserScript==
 
