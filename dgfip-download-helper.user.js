@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         dgfip download helper
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  download dxf files from data.gouv.fr with "https://github.com/mediascience/Browser-Multiple-Downloader"
 // @author       vprelat
-// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/*/dxf/*/
-// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/*/dxf-cc/*/
-// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/*/edigeo/*/
+// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/*/dxf*/*/
+// @match        https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/*/edigeo*/*/
 // @match        https://cadastre.data.gouv.fr/data/dgfip-pci-image/*/tiff/*/
+// @match        https://cadastre.data.gouv.fr/data/etalab-cadastre/*/geojson/*/
 // @grant        none
 // ==/UserScript==
 
@@ -26,7 +26,7 @@
       } else if (links[num1].text.length == 6)
       {
         links[num1].text = links[num1].text.replace("/", " - " + insee[links[num1].text.slice(0, -1)] + "/");
-      } else if (links[num1].text.length <= 4 && links[num1].text != "../")
+      } else if (links[num1].text.length <= 4 && links[num1].text != "../" && links[num1].text != "raw/")
       {
         links[num1].text = links[num1].text.replace("/", " - " + depinsee[links[num1].text.slice(0, -1)] + "/");
       }

@@ -7,7 +7,7 @@ Installez l'extention [Browser-Multiple-Downloader](https://github.com/mediascie
 
 Installez un gestionnaire d'userscript comme [Tampermonkey](http://tampermonkey.net/) et ajouter le script js
 
-Maintenant allez sur [https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/dxf/](https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/dxf/) pour les dxf 
+Maintenant allez sur [https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/](https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/latest/) pour le pci-vecteur
 ou [https://cadastre.data.gouv.fr/data/dgfip-pci-image/latest/tiff/](https://cadastre.data.gouv.fr/data/dgfip-pci-image/latest/tiff/) pour les images et profitez
 
 
